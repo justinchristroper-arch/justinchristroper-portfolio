@@ -26,8 +26,8 @@ export type Project = {
   status: string
   technologies: string[]
   highlights: string[]
-  image: string
-  imageAlt: string
+  image?: string
+  imageAlt?: string
   links: ProjectLink[]
   sections: CaseStudySection[]
 }
@@ -315,6 +315,75 @@ export const projects: Project[] = [
         title: 'A simulated case—not a company deployment',
         callout: 'RequestFlow is a simulated portfolio business case. It has not been deployed inside a real company.',
         bullets: ['No real-company ROI or productivity improvement is claimed.', 'No enterprise deployment impact is claimed.', 'The public app should not be treated as an enterprise security certification.', 'Real adoption would require organization-specific policy, security, and integration work.'],
+      },
+    ],
+  },
+  {
+    slug: 'helpdesk-ai',
+    index: '04',
+    name: 'HelpDesk AI',
+    shortName: 'HDAI',
+    category: 'Evidence-First IT Knowledge Assistant',
+    description: 'An evidence-first IT knowledge assistant using semantic retrieval, FastEmbed, PostgreSQL/pgvector, deterministic grounded answers, and backend-controlled citations.',
+    summary: 'A retrieval-focused assistant that keeps source evidence and citation control in the backend, with optional MindRouter synthesis kept outside the core functionality path.',
+    year: '2026',
+    status: 'Completed · Deployed',
+    technologies: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'pgvector', 'FastEmbed', 'Neon', 'Vercel'],
+    highlights: ['Backend-controlled citations', 'Deterministic fallback', '177 backend tests passed'],
+    links: [
+      { label: 'Live demo', href: 'https://helpdesk-ai-mu-ten.vercel.app/', kind: 'primary' },
+      { label: 'GitHub', href: 'https://github.com/justinchristroper-arch/helpdesk-ai', kind: 'secondary' },
+    ],
+    sections: [
+      {
+        eyebrow: 'Overview',
+        title: 'Answers grounded in retrievable evidence',
+        body: [
+          'HelpDesk AI is an IT knowledge assistant built around semantic retrieval and explicit source evidence. Its core path is designed to return grounded answers with citations controlled by the backend.',
+          'The project keeps optional MindRouter synthesis outside the required functionality path, so retrieval, citations, history, feedback, and deterministic fallback remain core capabilities.',
+        ],
+        metrics: [
+          { value: '177', label: 'Backend tests passed', note: 'Project verification baseline' },
+          { value: '7', label: 'Frontend tests passed', note: 'Project verification baseline' },
+          { value: '1', label: 'Deterministic fallback', note: 'Core functionality path' },
+        ],
+      },
+      {
+        eyebrow: 'Retrieval',
+        title: 'Semantic search with a traceable source path',
+        body: ['The assistant uses FastEmbed for semantic representations and PostgreSQL with pgvector for retrieval. Retrieved evidence is kept available to the answer flow instead of being hidden behind an opaque response.'],
+        flow: ['Question', 'FastEmbed', 'pgvector retrieval', 'Grounded answer', 'Backend citations'],
+      },
+      {
+        eyebrow: 'Architecture',
+        title: 'A focused full-stack retrieval system',
+        body: ['The React and TypeScript frontend connects to a FastAPI backend. PostgreSQL/pgvector stores and retrieves the knowledge base, with Neon and Vercel supporting the hosted deployment.'],
+        flow: ['React UI', 'FastAPI API', 'Semantic retrieval', 'PostgreSQL / pgvector', 'Cited response'],
+      },
+      {
+        eyebrow: 'Grounding',
+        title: 'Citations are controlled where the evidence lives',
+        bullets: ['Backend-controlled citation assembly', 'Deterministic fallback when synthesis is unavailable', 'Retrieval, citation, history, and feedback flows verified in the hosted app', 'Optional MindRouter synthesis is not required for core functionality'],
+      },
+      {
+        eyebrow: 'Administration',
+        title: 'Operational controls are part of the product surface',
+        bullets: ['Admin analytics verified', 'Authorization behavior verified', 'Conversation history and feedback supported', 'Public Vercel deployment works'],
+      },
+      {
+        eyebrow: 'Tech stack',
+        title: 'Tools chosen for retrieval and control',
+        bullets: ['React · TypeScript · Vite', 'Python · FastAPI', 'PostgreSQL · pgvector · Neon', 'FastEmbed', 'Vercel'],
+      },
+      {
+        eyebrow: 'Testing · Deployment',
+        title: 'Verified across core hosted workflows',
+        body: ['The recorded project baseline includes 177 backend tests passed and 7 frontend tests passed. Hosted retrieval, citations, history, feedback, admin analytics, authorization, deterministic fallback, and the public Vercel deployment were verified.'],
+      },
+      {
+        eyebrow: 'Scope note',
+        title: 'The core assistant does not depend on optional synthesis',
+        callout: 'Optional MindRouter synthesis is not required for core functionality. The retrieval and deterministic fallback path remains the foundation of the assistant.',
       },
     ],
   },
