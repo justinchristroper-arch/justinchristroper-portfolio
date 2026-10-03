@@ -175,7 +175,7 @@ function Resume() {
       <Container>
         <FadeIn className="resume-card">
           <div><span className="eyebrow">Resume</span><h2>A concise view of my education, skills, and work.</h2></div>
-          <div className="resume-status"><span>Resume coming soon</span><p>The download will be available here once the final document is ready.</p></div>
+          <div className="resume-status"><a className="button button-primary" href="/resume.pdf" download="Justin_Christroper_Resume_Final_ATS.pdf">Download Resume <ArrowDown size={17} aria-hidden="true" /></a><p>Download my final ATS resume as a PDF.</p></div>
         </FadeIn>
       </Container>
     </section>

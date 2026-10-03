@@ -34,6 +34,7 @@ npm run build
 - `/projects/cvscreener`
 - `/projects/nusamart`
 - `/projects/requestflow`
+- `/projects/helpdesk-ai`
 
 ## Adding another project
 
@@ -41,7 +42,7 @@ Add a new project object to `src/data/projects.ts` and extend the project slug u
 
 ## Resume
 
-The current website intentionally shows “Resume coming soon.” When the final resume is ready, add it as `public/resume.pdf` and replace the status in `src/pages/HomePage.tsx` with a link to `/resume.pdf`.
+The final ATS resume is available to download from the homepage's **Download Resume** button. The PDF is stored at `public/resume.pdf` and served at `/resume.pdf`.
 
 ## Deploying to Vercel
 

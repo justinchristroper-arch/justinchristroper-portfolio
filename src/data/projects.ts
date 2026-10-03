@@ -40,7 +40,7 @@ export const projects: Project[] = [
     shortName: 'CVS',
     category: 'AI-assisted CV Screening System',
     description: 'An evidence-first screening workflow that turns candidate CVs and job requirements into structured, auditable matches and rankings.',
-    summary: 'A full-stack system designed to make CV screening more structured, transparent, and reviewable—while keeping the final matching and scoring logic deterministic.',
+    summary: 'Combined structured candidate extraction with deterministic scoring, evidence verification, and ranking. An evidence-first system designed to make CV screening more transparent and reviewable.',
     year: '2026',
     status: 'Completed · Deployed',
     technologies: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'OpenRouter', 'Docker'],
@@ -57,7 +57,7 @@ export const projects: Project[] = [
         title: 'Structured screening, with evidence attached',
         body: [
           'CvScreener helps a reviewer define job requirements, upload candidate CVs, and compare applicants through a consistent screening pipeline.',
-          'The current full UI workflow uses an LLM to extract a structured candidate profile. Once structured, requirement matching, scoring, and ranking are deterministic and do not require an LLM.',
+          'Combined structured candidate extraction with deterministic scoring, evidence verification, and ranking. Structured requirement matching applies explicit rules to candidate information and supporting evidence; the system does not depend on LLM profile extraction across the entire screening flow.',
         ],
         metrics: [
           { value: '1,333', label: 'Backend tests passed', note: 'Project testing baseline' },
@@ -84,7 +84,7 @@ export const projects: Project[] = [
         title: 'Full-stack separation with deterministic matching at the core',
         body: [
           'The React and TypeScript interface manages requirements, uploads, results, and rankings. FastAPI coordinates validation, extraction, persistence, and screening. PostgreSQL stores structured jobs, candidates, evidence, and results.',
-          'OpenRouter and DeepSeek support candidate profile extraction in the current UI workflow. The structured matching engine then applies explicit rules and deterministic scoring.',
+          'Candidate extraction, evidence verification, and matching have separate responsibilities. The structured matching engine applies explicit rules and deterministic scoring, while OpenRouter and DeepSeek support AI-assisted capabilities where applicable.',
         ],
         flow: ['React UI', 'FastAPI API', 'Extraction workflow', 'Matching engine', 'PostgreSQL', 'Ranked results'],
       },
