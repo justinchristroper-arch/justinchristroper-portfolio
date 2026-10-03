@@ -44,7 +44,7 @@ export const projects: Project[] = [
     year: '2026',
     status: 'Completed · Deployed',
     technologies: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'OpenRouter', 'Docker'],
-    highlights: ['Evidence-first matching', 'Deterministic scoring', '1,468 tests passed at baseline'],
+    highlights: ['Evidence-first matching', 'Deterministic scoring', '1,468 automated tests passed'],
     image: '/projects/cvscreener.png',
     imageAlt: 'CvScreener candidate evidence screen showing matched requirements, source evidence, verdict tags, and score',
     links: [
@@ -330,6 +330,8 @@ export const projects: Project[] = [
     status: 'Completed · Deployed',
     technologies: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'pgvector', 'FastEmbed', 'Neon', 'Vercel'],
     highlights: ['Backend-controlled citations', 'Deterministic fallback', '177 backend tests passed'],
+    image: '/projects/helpdesk-ai.png',
+    imageAlt: 'HelpDesk AI answering a VPN-access question with grounded steps, inline citations, and the vpn-access-policy source visible',
     links: [
       { label: 'Live demo', href: 'https://helpdesk-ai-mu-ten.vercel.app/', kind: 'primary' },
       { label: 'GitHub', href: 'https://github.com/justinchristroper-arch/helpdesk-ai', kind: 'secondary' },
