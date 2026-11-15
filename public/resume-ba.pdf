@@ -1,0 +1,83 @@
+%PDF-1.4
+%ASCII
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 5100 >>
+stream
+BT /F2 18 Tf 36.0 810.0 Td (JUSTIN CHRISTROPER) Tj ET
+BT /F1 8.8 Tf 36.0 794.0 Td (Jakarta, Indonesia | justinchristroper@gmail.com | LinkedIn | GitHub | Portfolio) Tj ET
+BT /F1 8.65 Tf 36.0 779.0 Td (Computer Science student at BINUS University with hands-on experience analyzing business processes, translating) Tj ET
+BT /F1 8.65 Tf 36.0 768.8 Td (requirements into system workflows, and turning data into business insights. Built deployed projects across) Tj ET
+BT /F1 8.65 Tf 36.0 758.6 Td (workflow automation, business intelligence, and AI, with a technical foundation that supports communication) Tj ET
+BT /F1 8.65 Tf 36.0 748.4 Td (between business and technology teams.) Tj ET
+BT /F2 10 Tf 36.0 736.2 Td (EDUCATION) Tj ET
+0.65 G 0.6 w 36 731.2 m 559 731.2 l S 0 G
+BT /F2 8.8 Tf 36.0 719.2 Td (Bina Nusantara University \(BINUS University\) - Bachelor of Computer Science, Expected 2028) Tj ET
+BT /F1 8.35 Tf 36.0 708.7 Td (GPA: 3.27 / 4.00 | Coursework: Database Systems, Business Software Design, Venture Creation, AI, Scientific Computing) Tj ET
+BT /F2 10 Tf 36.0 697.7 Td (SELECTED PROJECTS) Tj ET
+0.65 G 0.6 w 36 692.7 m 559 692.7 l S 0 G
+BT /F2 8.8 Tf 36.0 680.7 Td (RequestFlow - Internal IT & Procurement Workflow Case Study | Business Analysis, FastAPI, PostgreSQL, React) Tj ET
+BT /F1 8.25 Tf 38.0 670.2 Td (- Analyzed a simulated fragmented chat/email/spreadsheet request process and designed AS-IS and TO-BE workflows) Tj ET
+BT /F1 8.25 Tf 48.0 660.7 Td (across Employee, Manager, Finance, Procurement, and Management stakeholders.) Tj ET
+BT /F1 8.25 Tf 38.0 652.4 Td (- Translated business needs into a mini-BRD, functional/non-functional requirements, user stories, acceptance) Tj ET
+BT /F1 8.25 Tf 48.0 642.9 Td (criteria, business rules, SLA definitions, and operational KPI formulas.) Tj ET
+BT /F1 8.25 Tf 38.0 634.6 Td (- Implemented and validated the proposed workflow with conditional Finance approval for requests >= Rp5M, audit) Tj ET
+BT /F1 8.25 Tf 48.0 625.1 Td (trails, SLA monitoring, analytics, and 116 backend tests.) Tj ET
+BT /F2 8.8 Tf 36.0 615.3 Td (NusaMart - E-Commerce Analytics & Business Intelligence | Python, SQL, PostgreSQL, Power BI) Tj ET
+BT /F1 8.25 Tf 38.0 604.8 Td (- Analyzed 89,860 delivered e-commerce orders and R$12.34M in revenue to evaluate customer behavior, delivery) Tj ET
+BT /F1 8.25 Tf 48.0 595.3 Td (performance, geographic/category performance, and retention.) Tj ET
+BT /F1 8.25 Tf 38.0 587.0 Td (- Identified a 3.00% repeat customer rate and other commercial patterns, translating findings into testable) Tj ET
+BT /F1 8.25 Tf 48.0 577.5 Td (business recommendations without overstating causality.) Tj ET
+BT /F1 8.25 Tf 38.0 569.2 Td (- Built a reconciled analytics pipeline and 3-page Power BI dashboard with 36 DAX measures using Python,) Tj ET
+BT /F1 8.25 Tf 48.0 559.7 Td (PostgreSQL, SQL, and a documented star schema.) Tj ET
+BT /F2 8.8 Tf 36.0 549.9 Td (CvScreener - Evidence-First CV Screening System | Python, FastAPI, PostgreSQL, React) Tj ET
+BT /F1 8.25 Tf 38.0 539.4 Td (- Designed a transparent screening workflow that converts job criteria and CV evidence into auditable MATCHED,) Tj ET
+BT /F1 8.25 Tf 48.0 529.9 Td (PARTIAL, NO_EVIDENCE, and NEEDS_REVIEW outcomes.) Tj ET
+BT /F1 8.25 Tf 38.0 521.6 Td (- Kept structured matching, weighted scoring, and ranking deterministic while reserving optional AI for) Tj ET
+BT /F1 8.25 Tf 48.0 512.1 Td (free-text/semantic cases; validated with 1,333 backend tests and 97% backend coverage.) Tj ET
+BT /F2 8.8 Tf 36.0 502.3 Td (HelpDesk AI - Evidence-First IT Knowledge Assistant | FastAPI, PostgreSQL/pgvector, FastEmbed, React) Tj ET
+BT /F1 8.25 Tf 38.0 491.8 Td (- Built a deployed IT knowledge assistant that retrieves evidence before answering, with backend-controlled) Tj ET
+BT /F1 8.25 Tf 48.0 482.3 Td (citations, ambiguity handling, and fallback behavior.) Tj ET
+BT /F1 8.25 Tf 38.0 474.0 Td (- Demonstrated technical system analysis across API, data, authorization, retrieval, testing, and deployment;) Tj ET
+BT /F1 8.25 Tf 48.0 464.5 Td (verified with 177 backend tests.) Tj ET
+BT /F2 10 Tf 36.0 452.7 Td (SKILLS) Tj ET
+0.65 G 0.6 w 36 447.7 m 559 447.7 l S 0 G
+BT /F1 8.25 Tf 36.0 435.7 Td (Business Analysis: Requirements Analysis, Stakeholder Analysis, AS-IS / TO-BE Process Mapping, Business Process) Tj ET
+BT /F1 8.25 Tf 36.0 426.2 Td (Analysis, User Stories, Acceptance Criteria, Mini-BRD, KPI & SLA Design) Tj ET
+BT /F1 8.25 Tf 36.0 415.7 Td (Data & Technical: SQL, Microsoft Excel, Power BI, Python, PostgreSQL, Data Analysis, Data Modeling, FastAPI,) Tj ET
+BT /F1 8.25 Tf 36.0 406.2 Td (Git/GitHub) Tj ET
+BT /F1 8.25 Tf 36.0 395.7 Td (Languages: Indonesian - Native; English - Professional Working Proficiency) Tj ET
+BT /F2 10 Tf 36.0 386.7 Td (CERTIFICATIONS) Tj ET
+0.65 G 0.6 w 36 381.7 m 559 381.7 l S 0 G
+BT /F1 7.9 Tf 36.0 369.7 Td (Cisco Networking Academy - Data Analytics Essentials, 2026 | IBM SkillsBuild - AI Fundamentals, 2026) Tj ET
+BT /F1 7.9 Tf 36.0 360.7 Td (Microsoft Elevate AI / GreatNusa - Azure AI Fundamentals Learning Program, 2026) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000016 00000 n 
+0000000065 00000 n 
+0000000122 00000 n 
+0000000258 00000 n 
+0000000328 00000 n 
+0000000403 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5554
+%%EOF
