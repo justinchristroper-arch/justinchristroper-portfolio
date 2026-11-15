@@ -26,7 +26,7 @@ function Hero() {
           <p className="hero-name">JUSTIN CHRISTROPER</p>
           <h1 id="hero-title">Building useful systems where <em>business</em>, data, and software meet.</h1>
           <div className="hero-bottom">
-            <p>Exploring software, data, and AI through practical projects built around real problems.</p>
+            <p>Exploring business analysis, data, software, and AI through practical projects built around real problems.</p>
             <div className="hero-actions">
               <Link className="button button-primary" to="/#projects">View projects <ArrowDown size={17} /></Link>
               <a className="button button-secondary" href={`mailto:${site.email}`}>Contact me <Mail size={17} /></a>
@@ -35,7 +35,7 @@ function Hero() {
         </div>
 
         <div className="hero-footer">
-          <span>Computer Science · Software · Data · AI</span>
+          <span>Business Analysis · Data · Software · AI</span>
           <div className="flex gap-2">
             <a className="icon-link" href={site.github} target="_blank" rel="noreferrer" aria-label="Justin on GitHub"><Github size={18} /></a>
             <a className="icon-link" href={site.linkedin} target="_blank" rel="noreferrer" aria-label="Justin on LinkedIn"><Linkedin size={18} /></a>
@@ -55,7 +55,7 @@ function About() {
             <div className="section-kicker"><span>01</span><span>About</span></div>
             <div className="about-main">
               <h2>Curious by nature.<br /><em>Always learning.</em></h2>
-              <p>I’m a Computer Science student at BINUS University who enjoys learning new things and exploring how software, data, and AI can solve practical problems.</p>
+              <p>I’m a Computer Science student at BINUS University who enjoys understanding how business processes, data, software, and AI can work together to solve practical problems.</p>
             </div>
             <dl className="about-meta">
               <div><dt>Education</dt><dd>BINUS University<br />Computer Science<small>AI specialization</small></dd></div>
@@ -73,7 +73,7 @@ function SelectedProjects() {
   return (
     <section id="projects" className="section projects-section">
       <Container>
-        <FadeIn><SectionHeading index="02" eyebrow="Selected work" title="Practical problems. Useful systems." description="Projects spanning AI-assisted software, business intelligence, and process automation—each grounded in a clear problem and documented decisions." /></FadeIn>
+        <FadeIn><SectionHeading index="02" eyebrow="Selected work" title="Practical problems. Useful systems." description="Projects spanning business process analysis, business intelligence, and AI-assisted software—each grounded in a clear problem and documented decisions." /></FadeIn>
         <div className="mt-12 space-y-5 lg:mt-16 lg:space-y-7">
           {projects.map((project) => <ProjectCard project={project} key={project.slug} />)}
         </div>
