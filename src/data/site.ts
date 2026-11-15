@@ -16,11 +16,11 @@ export const navItems = [
 ]
 
 export const skillGroups = [
-  { title: 'Programming', items: ['Python', 'C++', 'C', 'JavaScript', 'TypeScript', 'SQL'] },
-  { title: 'Data & Analytics', items: ['PostgreSQL', 'Pandas', 'Power BI', 'DAX', 'Data Modeling'] },
-  { title: 'AI & Intelligent Systems', items: ['LLM', 'NLP', 'Retrieval-Augmented Generation', 'AI-assisted Systems'] },
+  { title: 'Business & Systems', items: ['Business Analysis', 'Requirements Analysis', 'Stakeholder Analysis', 'AS-IS / TO-BE', 'Process Modeling', 'User Stories', 'Acceptance Criteria', 'KPI Design', 'SLA Design'] },
+  { title: 'Data & Analytics', items: ['Microsoft Excel', 'SQL', 'PostgreSQL', 'Pandas', 'Power BI', 'DAX', 'Data Modeling'] },
   { title: 'Software & Web', items: ['React', 'FastAPI', 'REST API', 'Docker', 'Git', 'GitHub'] },
-  { title: 'Business & Systems', items: ['Business Analysis', 'Requirements Analysis', 'AS-IS / TO-BE', 'Process Modeling', 'KPI Design', 'SLA Design'] },
+  { title: 'Programming', items: ['Python', 'C++', 'C', 'JavaScript', 'TypeScript', 'SQL'] },
+  { title: 'AI & Intelligent Systems', items: ['LLM', 'NLP', 'Retrieval-Augmented Generation', 'AI-assisted Systems'] },
 ]
 
 export const credentials = [
