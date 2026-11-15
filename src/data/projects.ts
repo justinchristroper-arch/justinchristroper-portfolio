@@ -49,7 +49,8 @@ export const projects: Project[] = [
     imageAlt: 'RequestFlow Admin analytics dashboard with operational KPIs and monthly request trend',
     links: [
       { label: 'Live demo', href: 'https://requestflow-one.vercel.app/', kind: 'primary' },
-      { label: 'BA case study', href: 'https://github.com/justinchristroper-arch/requestflow/blob/main/docs/case-study.md', kind: 'secondary' },
+      { label: 'BA evidence pack', href: 'https://github.com/justinchristroper-arch/requestflow/blob/main/docs/ba-evidence-pack.md', kind: 'secondary' },
+      { label: 'UAT matrix', href: 'https://github.com/justinchristroper-arch/requestflow/blob/main/docs/uat-matrix.md', kind: 'secondary' },
       { label: 'Business requirements', href: 'https://github.com/justinchristroper-arch/requestflow/blob/main/docs/business-requirements.md', kind: 'secondary' },
       { label: 'User stories', href: 'https://github.com/justinchristroper-arch/requestflow/blob/main/docs/user-stories.md', kind: 'secondary' },
       { label: 'GitHub', href: 'https://github.com/justinchristroper-arch/requestflow', kind: 'secondary' },
